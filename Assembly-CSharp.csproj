@@ -57,9 +57,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\PostProcess.cs" />
+    <Compile Include="Assets\Scripts\FadeToGray.cs" />
+    <Compile Include="Assets\Scripts\ClickMe.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Shaders\Grayscale.shader" />
+     <None Include="Assets\Shaders\ObjectGrayscale.shader" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
