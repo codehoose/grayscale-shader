@@ -312,11 +312,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ff26dc87e54ba34da62c50b2381e065, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials:
-  - {fileID: 2100000, guid: c528cfb561c7b2543967ac46e1c2d03a, type: 2}
-  - {fileID: 2100000, guid: 876a37ef8410ac24eb36a673e99bfea2, type: 2}
-  - {fileID: 2100000, guid: c46b7ed458d986d47bf9e1b0cb6cd52f, type: 2}
-  - {fileID: 2100000, guid: 23c21b92cd44af443aafb3657d4ce29e, type: 2}
+  renderers:
+  - {fileID: 1656987208}
+  - {fileID: 1829702221}
+  - {fileID: 1838343379}
+  - {fileID: 1116537249}
 --- !u!1 &1116537247
 GameObject:
   m_ObjectHideFlags: 0
