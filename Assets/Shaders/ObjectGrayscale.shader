@@ -42,7 +42,7 @@ Shader "Custom/ObjectGrayscale"
         void surf (Input IN, inout SurfaceOutputStandard o)
         {
             // Albedo comes from a texture tinted by color
-            fixed4 c = tex2D (_MainTex, IN.uv_MainTex) * _Color;
+            fixed4 c = _Color;
 
             float intensity = c.x * 0.299 + c.y * 0.587 + c.z * 0.114;
             fixed4 bandw = fixed4(intensity, intensity, intensity, c.w);
@@ -50,9 +50,9 @@ Shader "Custom/ObjectGrayscale"
 
             o.Albedo = lerped.rgb;
             // Metallic and smoothness come from slider variables
-            o.Metallic = _Metallic;
-            o.Smoothness = _Glossiness;
-            o.Alpha = c.a;
+            //o.Metallic = _Metallic;
+            //o.Smoothness = _Glossiness;
+            //o.Alpha = c.a;
         }
         ENDCG
     }

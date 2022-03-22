@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Blue
-  m_Shader: {fileID: 4800000, guid: 1c0f0c0d14d60be4a85db4152806c5d6, type: 3}
+  m_Shader: {fileID: 4800000, guid: 4277c2e2b6afbcc488a0c0a1c6c38f56, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -62,7 +62,7 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _GlossMapScale: 1
-    - _Glossiness: 0.5
+    - _Glossiness: 0.58
     - _GlossyReflections: 1
     - _Metallic: 0
     - _Mode: 0
